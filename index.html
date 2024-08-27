@@ -28,10 +28,12 @@
       background-color: hsl(212, 45%, 89%);
       font-family: "Outfit";
       font-weight: 400;
+      
 
-    
+
     }
-    #body{
+
+    #body {
       height: 95vh;
       display: flex;
       justify-content: center;
@@ -73,12 +75,13 @@
       text-align: center;
       font-size: 20px;
     }
+
     @media only screen and (max-width: 1000px) {
       #qr-code {
         max-width: 30vw;
       }
     }
-    
+
     @media only screen and (max-width: 500px) {
       #qr-code {
         max-width: 50vw;
@@ -88,26 +91,30 @@
 </head>
 
 <body>
-  <main><!-- Test-->
-    <h1 style="display: none;">QR Code</h1>
-  <div id="body">
-    <div id="qr-container" class="b-radius center">
-      <div id="qr-innercontainer">
-        <img id="qr-code" class="b-radius" src="images/image-qr-code.png" alt="QR-Code to visit Frontend Mentor">
-        <h4 style="color:hsl(218, 44%, 22%);">Improve your front-end skills by building projects</p></h4>
-          <p style="color:hsl(216, 15%, 48%);">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        
-      </div>
+  
+  <main>
+    <h1 style="position: absolute;height: 0px; color:rgba(0,0,0,0);">QR Code</h1>
+    <div id="body">
+      
+      <div id="qr-container" class="b-radius center">
+        <div id="qr-innercontainer">
+          <img id="qr-code" class="b-radius" src="images/image-qr-code.png" alt="QR-Code to visit Frontend Mentor">
+          <h4 style="color:hsl(218, 44%, 22%);">Improve your front-end skills by building projects</p>
+          </h4>
+          <p style="color:hsl(216, 15%, 48%);">Scan the QR code to visit Frontend Mentor and take your coding skills to
+            the next level
 
+        </div>
+
+      </div>
     </div>
-  </div>
-</main>
+  </main>
   <footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://steamcommunity.com/id/Rohloffmeister/" target="_blank">Ulrich Rohloff</a>.
-  </div>
-</footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://steamcommunity.com/id/Rohloffmeister/" target="_blank">Ulrich Rohloff</a>.
+    </div>
+  </footer>
 </body>
 
 </html>
